@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins';
+    color: whitesmoke;
+}
+
+body{
+    padding-top: 20px;
+    background: #000000c4;    
+}
+
+.bj{
+    font-size: 50px;
+    font-family: 'Anurati',Poppins;
+    text-align: center;
+    color: #f5f5f5ba;
+}
+
+.bj span{
+    font-family: 'Anurati',Poppins;
+    color: #03791c;
+    text-shadow: 1px 1Px 3px #02c42c;
+}
+
+.choice{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #f5f5f5ba;
+    font-size: 25px;
+}
+
+ul{
+    margin-top: 10Px;
+    margin-left: 200px;
+    color: #f5f5f5ba;
+    list-style: none;
+}
+
+ul li{
+    cursor: pointer;
+    font-family: 'Anurati',Poppins;
+    font-size: 20px;
+    margin: 10px 0;
+    transition: .4s;
+}
+
+ul li.c{
+    color: #bbbb1d;
+    text-shadow: 1px 1px 1px #a1bb1d;
+    margin-left: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container label{
+    font-size: 20px;
+    color: #a1bb1d;
+}
+
+.container input{
+    background: whitesmoke;
+    font-size: 17px;
+    margin: 0 20px;
+    width: 300px;
+    height: 30px;
+    border: dashed;
+    border-width: .5px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0 10px;
+    color: #000000c4;
+}
